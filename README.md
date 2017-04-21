@@ -1,11 +1,11 @@
-Machine Learning Notebooks
+Introduction to TensorFlow
 ==========================
 
 This project accompanies my [Introduction to TensorFlow](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/) live online training. It contains the exercises and their solutions, in the form of [Jupyter](http://jupyter.org/) notebooks.
 
 [![book](https://raw.githubusercontent.com/ageron/tensorflow-safari-course/master/images/intro_to_tf_course.png)](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/)
 
-If you are looking for the code accompanying my O'Reilly book, [Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do), visit my other GitHub project: [handson-ml](https://github.com/ageron/handson-ml).
+If you are looking for the code accompanying my O'Reilly book, [Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do), visit this other GitHub project: [handson-ml](https://github.com/ageron/handson-ml).
 
 
 # Installation
@@ -36,6 +36,6 @@ Finally, launch Jupyter:
 
     $ jupyter notebook
 
-This should start the Jupyter server locally, and open your browser. If your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree). Click on `index.ipynb` to get started. You can visit [http://localhost:8888/nbextensions](http://localhost:8888/nbextensions) to activate and configure Jupyter extensions.
+This should start the Jupyter server locally, and open your browser. If your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree). Click on `Introduction to TensorFlow.ipynb` to get started.
 
 That's it! Have fun learning TensorFlow.
