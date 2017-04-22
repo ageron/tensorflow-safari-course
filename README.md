@@ -1,7 +1,7 @@
 Introduction to TensorFlow
 ==========================
 
-This project accompanies my [Introduction to TensorFlow](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/) live online training. It contains the exercises and their solutions, in the form of [Jupyter](http://jupyter.org/) notebooks.
+This project accompanies my [Introduction to TensorFlow](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/) live online training. It contains the exercises and their solutions, in the form of a [Jupyter](http://jupyter.org/) notebook.
 
 [![book](https://raw.githubusercontent.com/ageron/tensorflow-safari-course/master/images/intro_to_tf_course.png)](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/)
 
@@ -24,7 +24,7 @@ Next, make sure you are using a recent version of pip (replace `pip3` with `pip`
 
 If you want an isolated environment (recommended), you can use [virtualenv](https://virtualenv.readthedocs.org/en/latest/):
 
-    $ pip3 install --upgrade virtualenv
+    $ pip3 install --user --upgrade virtualenv
     $ virtualenv -p `which python3` env
     $ source ./env/bin/activate
 
@@ -36,7 +36,7 @@ If you prefer to use [Anaconda](https://www.continuum.io/), you can run the foll
 
     $ conda install -c conda-forge tensorflow=1.0.0
 
-Make sure everything is correctly installed by launching the following command. It should not display anything (replace python3 with python2 if needed):
+Make sure everything is correctly installed by launching the following command. It should not display anything (replace `python3` with `python2` if needed):
 
     $ python3 -c 'import tensorflow, numpy, jupyter, matplotlib'
 
