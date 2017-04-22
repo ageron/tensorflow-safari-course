@@ -22,13 +22,13 @@ Next, make sure you are using a recent version of pip (replace `pip3` with `pip`
 
     $ pip3 install --user --upgrade pip
 
-If you want an isolated environment (recommended), you can use [virtualenv](https://virtualenv.readthedocs.org/en/latest/):
+If you want an isolated environment (recommended), you can use [virtualenv](https://virtualenv.readthedocs.org/en/latest/) (replace `python3` with `python2` if you prefer):
 
     $ pip3 install --user --upgrade virtualenv
     $ virtualenv -p `which python3` env
     $ source ./env/bin/activate
 
-Then use pip to install the required python packages (again, replace `pip3` with `pip` if you are using Python 2). If you are not using virtualenv, you should add the `--user` option (or use `sudo` if you know what you are doing).
+Then use pip to install the required python packages (again, replace `pip3` with `pip` if you want to use Python 2). If you are not using virtualenv, you should add the `--user` option (or use `sudo` if you know what you are doing).
 
     $ pip3 install --upgrade -r requirements.txt
 
