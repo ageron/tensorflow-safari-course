@@ -12,7 +12,7 @@ If you are looking for the code accompanying my O'Reilly book, [Hands-on Machine
 
 First, you will need to install [git](https://git-scm.com/), if you don't have it already.
 
-Next, clone this repository:
+Next, clone this repository by opening a terminal and typing the following commands:
 
     $ cd $HOME  # or any other development directory you prefer
     $ git clone https://github.com/ageron/tensorflow-safari-course.git
