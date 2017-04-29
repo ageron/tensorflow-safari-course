@@ -18,7 +18,7 @@ Next, clone this repository by opening a terminal and typing the following comma
     $ git clone https://github.com/ageron/tensorflow-safari-course.git
     $ cd tensorflow-safari-course
 
-Of course, you will need Python as well. Python 2 is already preinstalled on most systems nowadays, and sometimes even Python 3. You can check which version(s) you have by opening a terminal and typing:
+Of course, you will need Python as well. Python 2 is already preinstalled on most systems nowadays, and sometimes even Python 3. You can check which version(s) you have by typing the following commands:
 
     $ python --version   # for Python 2
     $ python3 --version  # for Python 3
