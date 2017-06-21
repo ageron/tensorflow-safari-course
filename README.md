@@ -1,7 +1,7 @@
 Introduction to TensorFlow
 ==========================
 
-This project accompanies my [Introduction to TensorFlow](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/) live online training. It contains the exercises and their solutions, in the form of a [Jupyter](http://jupyter.org/) notebook.
+This project accompanies my **Introduction to TensorFlow** live online trainings ([April 27-28](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/), [June 21-22](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920073918/), [September 13-14](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079521) 2017). It contains the exercises and their solutions, in the form of a [Jupyter](http://jupyter.org/) notebook.
 
 [![book](https://raw.githubusercontent.com/ageron/tensorflow-safari-course/master/images/intro_to_tf_course.png)](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/)
 
