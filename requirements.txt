@@ -1,9 +1,11 @@
 jupyter==1.0.0
-matplotlib==2.0.2
-numpy==1.13.0
+matplotlib==2.1.1
+numpy==1.13.3
+scipy==0.19.1
+pillow==4.2.1
 
 # By default this project depends on the CPU version of TensorFlow:
-tensorflow==1.2.0
+tensorflow==1.4.1
 
 # but you can install the GPU version instead if you know what you are doing:
-#tensorflow-gpu==1.2.0
+#tensorflow-gpu==1.4.1
