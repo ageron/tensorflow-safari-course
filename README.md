@@ -1,12 +1,13 @@
 Introduction to TensorFlow
 ==========================
 
-This project accompanies my **Introduction to TensorFlow** live online trainings ([April 27-28](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/), [June 21-22](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920073918/), [September 13-14](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079521) 2017). It contains the exercises and their solutions, in the form of a [Jupyter](http://jupyter.org/) notebook.
+This project accompanies my **Introduction to TensorFlow** live online trainings ([April 27-28](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/), [June 21-22](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920073918/), [September 13-14](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079521),  [December 13-14](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079583/) 2017). It contains the exercises and their solutions, in the form of [Jupyter](http://jupyter.org/) notebooks.
+
+During the course itself, a URL will be provided for running the notebooks. You can participate in the course without installing anything local. If you prefer to work on a local installation, please follow the installation instructions below.
 
 [![book](https://raw.githubusercontent.com/ageron/tensorflow-safari-course/master/images/intro_to_tf_course.png)](https://www.safaribooksonline.com/live-training/courses/introduction-to-tensorflow/0636920079460/)
 
-If you are looking for the code accompanying my O'Reilly book, [Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do), visit this other GitHub project: [handson-ml](https://github.com/ageron/handson-ml).
-
+If you are looking for the code accompanying my O'Reilly book, [Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do), visit this GitHub project: [handson-ml](https://github.com/ageron/handson-ml).
 
 # Installation
 
@@ -40,9 +41,9 @@ If you chose to install Anaconda, you can optionally create an isolated Python e
 
 This creates a fresh Python 3.5 environment called `tfintro`, and it activates it. This environment contains all the scientific libraries that come with Anaconda. This includes all the libraries we will need (NumPy, Matplotlib and Jupyter), except for TensorFlow, so let's install it:
 
-    $ conda install -n tfintro -c conda-forge tensorflow=1.0.0
+    $ conda install -n tfintro -c conda-forge tensorflow=1.4.0
 
-This installs TensorFlow 1.0.0 in the `tfintro` environment (fetching it from the `conda-forge` repository). If you chose not to create a `tfintro` environment, then just remove the `-n tfintro` option.
+This installs TensorFlow 1.4.0 in the `tfintro` environment (fetching it from the `conda-forge` repository). If you chose not to create a `tfintro` environment, then just remove the `-n tfintro` option.
 
 You are all set! Next, jump to the [Starting Jupyter](#starting-jupyter) section.
 
@@ -81,7 +82,14 @@ To start Jupyter, simply type:
 
 This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree).
 
-Next, just click on `Introduction to TensorFlow.ipynb` to open this course's Jupyter notebook.
+Next, just click on any `*.ipynb` to open a Jupyter notebook.
 
 That's it! Now, have fun learning TensorFlow!
 
+## Using Docker
+
+There is a docker image available for this course: esztiorm/0636920073925
+
+If you wish to create your own image using the Dockerfile, please note that the path "tmp/data" should be changed to "/home/jovyan/tmp/data" in notebooks 8 through 11.
+
+`mnist = input_data.read_data_sets("/home/jovyan/tmp/data/")`
