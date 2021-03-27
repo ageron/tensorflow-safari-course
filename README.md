@@ -1,5 +1,7 @@
 # ⛔️ DEPRECATED
 
+**This project is no longer supported, please consider using https://github.com/ageron/tf2_course instead.**
+
 Introduction to TensorFlow
 ==========================
 
