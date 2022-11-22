@@ -2,7 +2,7 @@ jupyter==1.0.0
 matplotlib==3.4.0
 numpy==1.22.0
 scipy==1.6.2
-pillow==9.0.1
+pillow==9.3.0
 
 tensorflow==1.15.5
 
